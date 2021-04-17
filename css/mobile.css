@@ -1,0 +1,84 @@
+/* Utility Classes */
+.display-1 { 
+  font-size: 50px; 
+}
+
+/* Navbar */
+#navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100%;
+}
+
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+/* Showcase */
+#showcase {
+  height: 100%;
+  padding: 60px 0px;
+}
+
+.showcase-title {
+  float: none;
+  width: 100%;
+}
+
+.showcase-title p {
+  padding: 10px 0;
+}
+
+.showcase-img {
+  float: none;
+  width: 100%;
+  padding: 20px;
+}
+
+.showcase-img img {
+  width: 100%;
+}
+
+/* Features */
+#features {
+  padding: 50px 0;
+}
+
+.features-card {
+  padding-top: 30px;
+}
+
+.card {
+  float: none;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.card img {
+  height: 80px;
+}
+
+/* Testimonial */
+#testimonial {
+  padding: 50px 0;
+}
+
+#testimonial h4 {
+  padding-bottom: 20px;
+}
+
+#testimonial p {
+  width: 100%;
+}
+
+/* Contact */
+#contact {
+  padding: 50px 0;
+}
+
+#contact form {
+  padding-top: 40px;
+  width: 90%;
+}

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1 { font-size: 2.5rem; }
+h4 { 
+  font-size: 1.5rem; 
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+a { text-decoration: none; }
+
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.large { font-size: 1.25rem; }
+
+.display-1 { 
+  font-size: 72px; 
+  font-weight: 300;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  padding: 12px 23px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+}
+
+.btn-light {
+  background: #F5B637;
+  border: 1px solid #F5B637;
+  color: #fff;
+}
+
+.btn-100 {
+  width: 100%;
+}
+
+.btn-light:hover {
+  background: #fff;
+  border: 1px solid #4d4d4d;
+  color: #4d4d4d;
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.7rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #EDEDED;
+  background-clip: padding-box;
+  border: 1px solid #EDEDED;
+  border-radius: 0.25rem;
+}
+
+/* Navbar */
+#navbar {
+  background: #0A0B45;
+  color: #fff;
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 12vh;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 16px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  text-decoration: underline;
+}
+
+/* Showcase */
+#showcase {
+  background-image: linear-gradient(to right, #E000EA , #3B00EE);
+  color: #fff;
+  height: 88vh;
+  padding-top: 160px;
+}
+
+.showcase-title {
+  float: left;
+  width: 50%;
+}
+
+.showcase-title span {
+  color: #F5B637;
+}
+
+.showcase-title p {
+  padding: 30px 0;
+}
+
+.showcase-img {
+  float: right;
+  width: 50%;
+  padding: 20px;
+}
+
+.showcase-img img {
+  width: 100%;
+}
+
+/* Features */
+#features {
+  padding: 90px 120px;
+}
+
+.features-card {
+  padding-top: 70px;
+}
+
+.card {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Testimonial */
+#testimonial {
+  background: #0A0B45;
+  color: #fff;
+  padding: 90px 120px;
+  text-align: center;
+}
+
+#testimonial h4 {
+  padding-bottom: 50px;
+}
+
+#testimonial p {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#testimonial .large-test {
+  color: #F5B637;
+  padding-top: 20px;
+}
+
+/* Contact */
+#contact {
+  padding: 90px 120px;
+}
+
+#contact form {
+  padding-top: 90px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Footer */
+#mainfooter {
+  background: #0A0B45;
+  text-align: center;
+  padding:30px;
+}
