@@ -1,6 +1,6 @@
 /* Utility Classes */
-.display-1 { 
-  font-size: 50px; 
+.display-1 {
+  font-size: 50px;
 }
 
 /* Navbar */
@@ -18,12 +18,13 @@
 /* Showcase */
 #showcase {
   height: 100%;
-  padding: 60px 0px;
+  padding: 50px 0;
 }
 
 .showcase-title {
   float: none;
   width: 100%;
+  padding-right: 0px;
 }
 
 .showcase-title p {
@@ -33,11 +34,7 @@
 .showcase-img {
   float: none;
   width: 100%;
-  padding: 20px;
-}
-
-.showcase-img img {
-  width: 100%;
+  padding: 40px;
 }
 
 /* Features */
@@ -52,17 +49,12 @@
 .card {
   float: none;
   width: 100%;
-  text-align: center;
   padding: 10px;
-}
-
-.card img {
-  height: 80px;
 }
 
 /* Testimonial */
 #testimonial {
-  padding: 50px 0;
+  padding: 50px 0px;
 }
 
 #testimonial h4 {
